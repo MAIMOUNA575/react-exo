@@ -23,8 +23,6 @@ const listefruits = produits.map(produit=>
         {produit.title}
     </li>
 )
-
-
 function Apps(){
     return(
         <>
