@@ -1,6 +1,6 @@
 function Article(){
     return(
-        <button className="bouton">
+        <button className="bouton" onClick={()=>alert('VOUS VENEZ DE CLIQUEZ SUR MON BOUTON')}>
             CONNECTER-VOUS
         </button>
     )   
