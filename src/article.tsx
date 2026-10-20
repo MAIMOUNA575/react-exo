@@ -1,8 +1,11 @@
 function Article(){
     return(
-        <button className="bouton" onClick={()=>alert('VOUS VENEZ DE CLIQUEZ SUR MON BOUTON')}>
-            CONNECTER-VOUS
-        </button>
+        <>
+            <button className="bouton" onClick={()=>alert('VOUS VENEZ DE CLIQUEZ SUR MON BOUTON')}>
+                CONNECTER-VOUS
+            </button>
+            <button className="bg-sky-500 hover:bg-sky-700">Save changes</button>
+        </>
     )   
 }
 function Profil() {
